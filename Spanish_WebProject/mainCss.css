@@ -1,0 +1,83 @@
+body{
+    background-color : antiquewhite;
+}
+.map{
+    border: 2px solid cornsilk;
+    border-radius: 10px;
+    width: 1200px;
+    margin-left: 110px;
+    margin-top: 100px;
+    position: relative;
+    left: 0;
+    top: 750px;
+    z-index: 0;
+
+}
+.pin{
+    border: 2px solid snow;
+    border-radius: 200px;
+    width: 100px;
+    height: 120px;
+    position: absolute;
+    top: 1330px;
+    left: 500px;
+    z-index: 1;
+}
+.pin:hover{
+    border: 4px solid brown;
+    border-radius: 100px;
+    width: 120px;
+    height: 140px;
+}
+.pin:active {
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0,0,0, .2);
+
+}
+.pin2{
+    border: 2px solid snow;
+    border-radius: 200px;
+    width: 100px;
+    height: 120px;
+    position:absolute;
+    top: 1070px;
+    left: 650px;
+    z-index: 1;
+}
+.pin2:hover{
+    border: 4px solid brown;
+    transform:scale(1.2);
+}
+.pin2:active {
+    transform: scale(1);
+    box-shadow: inset 0 0 10px 1px rgba(0,0,0, .2);
+
+}
+.intro{
+    border: 2px solid snow;
+    border-radius: 8px;
+    width: 500px;
+    position: absolute;
+    top: 100px;
+    left: 35%;
+    }
+#font{
+font-family: 'Times New Roman', Times, serif;
+background-color: bisque;
+font-style: oblique;
+
+}
+.rules{
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 800px;
+}
+#Rules{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:rgb(255, 207, 148);
+    border :3px solid black;
+    border-radius: 10%;
+    position:absolute;
+    top: 830px;
+    margin-left: 36%;
+}
